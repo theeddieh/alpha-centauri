@@ -1,0 +1,85 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+;Scenario-specific text for Borehole 1
+
+#INTRO
+#xs 320
+#caption The Alien Borehole
+^^
+M.Y.: $DATE4. On a distant continent, expeditionary forces of four factions have
+established toeholds surrounding the mysterious alien artifact known as The Borehole
+Cluster. The Believers and the Hive have joined forces to control the artifact; the
+Spartans and the Gaians have teamed up to wrest control of this important objective.
+$TITLE1 $NAME2 of the $FACTION3, your goal is to work with your ally to
+control Blessed Saviour and Song of Planet by the year M.Y. $NUM3. Blessed Saviour
+initially belongs to the Believers, and is marked as an OBJECTIVE base. Song of Planet
+initially belongs to the Gaians, and is marked as an OBJECTIVE base.
+^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption The Alien Borehole
+^^
+^^Objectives: both the OBJECTIVE bases on M.Y. $NUM3
+^^
+^^
+^^OBJECTIVE bases currently under your control: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, you control both OBJECTIVE bases!
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+You have failed to gain control of both OBJECTIVE bases.
+You have FAILED in your quest to control the alien Borehole Cluster.
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption DEFEAT!
+^^
+$TITLE0 $NAME1 of the $FACTION2 controls ALL the OBJECTIVE bases.
+You have FAILED in your quest to dominate the remnants of the Hive empire.
+^
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS!
+^
+$TITLE0 $NAME1 of the $FACTION2, you control ALL the OBJECTIVE bases.
+The remnants of the Hive empire are yours!
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

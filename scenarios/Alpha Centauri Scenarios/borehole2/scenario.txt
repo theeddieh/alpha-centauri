@@ -1,0 +1,64 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+;Scenario-specific text for Borehole 2
+
+#INTRO
+#xs 320
+#caption The Alien Borehole
+^^
+M.Y.: $DATE4. On a distant continent, expeditionary forces of two factions have
+established toeholds surrounding the mysterious alien artifact known as The Borehole
+Cluster. The University and the Peacekeepers have squared off to see who can best
+exploit this potent resource.
+$TITLE1 $NAME2 of the $FACTION3, your goal is to expand and build as much as possible
+by the year M.Y. $NUM3. Each controlled square of territory and each Secret Project
+built will count towards victory.
+^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Race for Riches
+^^
+^^Objectives: Build as many Special Projects and control as much territory as you can
+by MY $NUM3
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, you have used your resources wisely.
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+You have failed to gain the upper hand. Your opponent controls more vital
+resources.
+^^
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file
